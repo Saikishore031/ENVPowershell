@@ -11,7 +11,7 @@ pipeline {
         stage('Run PowerShell Script') {
             steps {
                 // Assuming the PowerShell script is in the workspace directory
-                powershell """
+                pwsh """
                 # Call the script
                 ./vm-creation-script.ps1
                 """
