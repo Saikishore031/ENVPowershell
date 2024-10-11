@@ -1,14 +1,5 @@
 pipeline {
     agent any
-
-    environment {
-        vcenterServer = "172.16.8.20"
-        vcUser = "dsmsv@vsphere.local"
-        vcPass = "Hitachi_DS.2024"
-        domainusername = "envhit.local\administrator"
-        domainpassword = "Hitachi1@3"
-    }
-
     stages {
         stage('Checkout PowerShell Script') {
             steps {
