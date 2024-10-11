@@ -5,7 +5,7 @@ pipeline {
         // Fetch credentials securely from Jenkins credentials store
         VCENTER_USER = "dsmsv@vsphere.local"
         VCENTER_PASS = "Hitachi_DS.2024"
-        DOMAIN_USER = 'administrator'
+        DOMAIN_USER = "administrator"
         DOMAIN_PASS = "Hitachi1@3"
         VCENTER_SERVER = "172.16.8.20"
         GUEST_USER = "administrator"
